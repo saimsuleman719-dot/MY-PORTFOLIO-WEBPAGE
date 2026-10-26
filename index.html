@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a web developer">
+  <title>My Portfolio | Web Developer</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="#home" class="logo">My<span>Portfolio.</span></a>
+
+  <button class="menu-btn" id="menu-btn" aria-label="Toggle menu"
+          aria-expanded="false">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section class="hero section" id="home">
+    <div class="hero-text reveal">
+      <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+      <h1>Hello, I'm <span class="gradient"><br> SAIM SULEMAN</span></h1>
+      <h2>I'm a <span id="typing"></span><span class="cursor">|</span></h2>
+      <p class="description">
+        I build modern, responsive, and user-friendly websites.
+        I enjoy learning new technologies and turning creative ideas
+        into real digital experiences.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View My Projects</a>
+        <a href="#contact" class="btn outline">Contact Me</a>
+      </div>
+
+      <div class="socials">
+        <a href="https://github.com/" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image reveal">
+      <div class="image-ring">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGUDHecrPOrlw/profile-displayphoto-scale_400_400/B4DaE2GZ5bHcAg-/0/1791909012595?e=1793232000&v=beta&t=BoFIhYkGMD3TuSrJ2FmZk3sWghMoi9cU30zbTnHzO-E" alt="My profile photo"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+        <div class="image-fallback"><i class="fas fa-user"></i></div>
+      </div>
+      <div class="floating-badge badge-one"><i class="fas fa-code"></i> Web Developer</div>
+      <div class="floating-badge badge-two"><i class="fas fa-laptop-code"></i> Creative Thinker</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-title reveal">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About <span class="gradient">Me</span></h2>
+      <p>A little introduction about myself.</p>
+    </div>
+
+    <div class="about-grid reveal">
+      <div class="about-box">
+        <i class="fas fa-laptop-code large-icon"></i>
+        <h3>Passionate Developer</h3>
+        <p>Creating useful, attractive, and responsive websites.</p>
+      </div>
+      <div class="about-text">
+        <h3>I'm passionate about web development.</h3>
+        <p>
+          My name is SAIM SULEMAN. I am interested in web development,
+          programming, and designing modern user interfaces.
+          I enjoy solving problems and improving my skills through projects.
+        </p>
+        <p>
+          My goal is to build accessible websites that provide a great
+          experience on mobile phones, tablets, and computers.
+        </p>
+        <div class="personal-details">
+          <p><strong>Name:</strong> SAIM SULEMAN</p>
+          <p><strong>Location:</strong> Gujranwala Pakistan</p>
+          <p><strong>Email:</strong> saimsuleman718@email.com</p>
+          <p><strong>Profession:</strong> Web Developer</p>
+        </div>
+        <a href="#contact" class="btn primary">Let's Connect</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-alt" id="education">
+    <div class="section-title reveal">
+      <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+      <h2>My <span class="gradient">Education</span></h2>
+      <p>My educational background and qualifications.</p>
+    </div>
+
+    <div class="education-grid">
+      <article class="education-card reveal">
+        <div class="card-icon"><i class="fas fa-school"></i></div>
+         <span class="year">2019 – 2021</span>
+        <h3>Matriculation (10th)</h3>
+        <p class="institution">GOVT HIGH SCHOOL ATTAWA (GUJRANWALA).</p>
+        <p>Major: Science </p>
+        <p class="result">Result: Pass</p>
+      </article>
+
+      <article class="education-card reveal">
+        <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+        <span class="year">2021 – 2023</span>
+        <h3>Intermediate (12th)</h3>
+        <p class="institution">TIMES COLLEGE FOR BOYS, CHAN DA QILA LAHORE ROAD, JALIL TOWN, GUGRANWALA</p>
+        <p>Major: ICS (INTERMEDIATE IN COMPUTER SCIENCE)</p>
+        <p class="result">Result: Pass</p>
+      </article>
+
+      <article class="education-card reveal">
+        <div class="card-icon"><i class="fas fa-university"></i></div>
+        <span class="year">2023 – Present</span>
+        <h3>Graduation / Bachelor's Of Computer Science</h3>
+        <p class="institution">UNIVERSITY OF GUJRAT</p>
+        <p>Degree: BS Computer Science </p>
+        <p class="result">Status: In progress</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-title reveal">
+      <p class="eyebrow">WHAT I CAN DO</p>
+      <h2>My <span class="gradient">Skills</span></h2>
+      <p>Technologies and tools I am learning and using.</p>
+    </div>
+
+    <div class="skills-grid">
+      <article class="skill-card reveal">
+        <i class="fab fa-html5 skill-icon html"></i>
+        <h3>HTML5</h3><span>90%</span>
+        <div class="progress"><span data-width="90%"></span></div>
+      </article>
+      <article class="skill-card reveal">
+        <i class="fab fa-css3-alt skill-icon css"></i>
+        <h3>CSS3</h3><span>85%</span>
+        <div class="progress"><span data-width="85%"></span></div>
+      </article>
+      <article class="skill-card reveal">
+        <i class="fab fa-js skill-icon js"></i>
+        <h3>JavaScript</h3><span>75%</span>
+        <div class="progress"><span data-width="75%"></span></div>
+      </article>
+      <article class="skill-card reveal">
+        <i class="fab fa-bootstrap skill-icon bootstrap"></i>
+        <h3>Bootstrap</h3><span>70%</span>
+        <div class="progress"><span data-width="70%"></span></div>
+      </article>
+      <article class="skill-card reveal">
+        <i class="fas fa-mobile-alt skill-icon responsive"></i>
+        <h3>Responsive Design</h3><span>80%</span>
+        <div class="progress"><span data-width="80%"></span></div>
+      </article>
+      <article class="skill-card reveal">
+        <i class="fab fa-github skill-icon github"></i>
+        <h3>Git & GitHub</h3><span>65%</span>
+        <div class="progress"><span data-width="65%"></span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="section-title reveal">
+      <p class="eyebrow">MY RECENT WORK</p>
+      <h2>My <span class="gradient">Projects</span></h2>
+      <p>Some projects to demonstrate my skills and creativity.</p>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card reveal">
+        <div class="project-visual visual-one">
+          <i class="fas fa-laptop-code"></i>
+          <span>01 / WEB DEVELOPMENT</span>
+        </div>
+        <div class="project-content">
+          <h3>Personal Portfolio</h3>
+          <p>A responsive personal website showcasing my profile, skills, and education.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a href="#contact" class="project-link">Discuss Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-visual visual-two">
+          <i class="fas fa-shopping-cart"></i>
+          <span>02 / E-COMMERCE</span>
+        </div>
+        <div class="project-content">
+          <h3>Online Shopping Website</h3>
+          <p>A modern shopping interface with product cards and responsive styling.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a href="#contact" class="project-link">Discuss Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-visual visual-three">
+          <i class="fas fa-cloud-sun"></i>
+          <span>03 / WEB APP</span>
+        </div>
+        <div class="project-content">
+          <h3>Weather App</h3>
+          <p>A weather dashboard concept with a clean interface for displaying conditions.</p>
+          <div class="tags"><span>JavaScript</span><span>API</span><span>CSS</span></div>
+          <a href="#contact" class="project-link">Discuss Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-title reveal">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Contact <span class="gradient">Me</span></h2>
+      <p>Have a question or project? Send me a message.</p>
+    </div>
+
+    <div class="contact-box reveal">
+      <div class="contact-info">
+        <h3>Let's work together!</h3>
+        <p>I'm happy to hear about new ideas, opportunities, and projects.</p>
+        <p><i class="fas fa-envelope"></i> saimsuleman718@email.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Gujranwala Pakistan</p>
+      </div>
+
+      <form id="contact-form">
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"
+                  placeholder="Write your message..." required></textarea>
+
+        <button type="submit" class="btn primary">
+          Send Message <i class="fas fa-paper-plane"></i>
+        </button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="#home" class="logo">My<span>Portfolio.</span></a>
+  <p>Designed and built with passion.</p>
+  <p>© <span id="year"></span> SAIM SULEMAN. All rights reserved.</p>
+  <a href="#home" class="back-top" aria-label="Back to top">↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
